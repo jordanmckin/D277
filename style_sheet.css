@@ -36,15 +36,16 @@ th{
 }
 table, td{
 border: 1px solid black;
+font-size: 17px;
 }
+
 ol{
     
     list-style-position: inside;
     font-size: 30px;
 }
 table{
-    position: relative;
-   margin-left: 10%;
+   position: relative;
 }
 img.hpage_corner{
     width:20%;
@@ -65,7 +66,7 @@ text-align: center;
 
 .wiki-link{
     position: absolute;
-    margin-left: 30%;
+    margin-left: 35%;
     padding: 30px;
     background-color: green;
 }
@@ -85,4 +86,9 @@ text-align: center;
     color:darkolivegreen;
     font-size:25px;
     font-style: italic;
+}
+#DOL{
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 3%;
 }
