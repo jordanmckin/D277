@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style_sheet.css" />
+        <script src="check_script.js"></script>
+        <title>Washington State</title>
+    </head>
+    <body>
+        <header>
+            <h1>Washington State</h1>
+            <h3 id="nickname">The Evergreen State</h3>
+            <img class="hpage_corner" src="images\detailed_state_map.jpg" alt="State Flag">
+            <img class="hpage_center" src="images\washington_state_wide.jpg" alt="State Flag">
+            <img class="hpage_corner" src="images\state_flag.png" alt="State Flag">
+            <nav>
+                <ul>
+                    <a href="index.html">Home-Washington State</a> |
+                    <a href="#">Olympia-Capitol</a> |
+                    <a href="#">Tacoma</a> |
+                    <a href="#">Seattle</a> |
+                    <a href="aboutcontact.html">About & Contact</a>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h2>Connect with us!</h2>
+            <form>
+                <label for="first">First Name</label>
+                <input type="text" id="first" name="first" value="John">
+                <label for="last">Last Name</label>
+                <input type="text" id="last" name="last" value="Doe">  
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" value="John@gmail.com">
+                <label for="cemail">Confirm Email</label>
+                <input type="text" id="cemail" name="cemail" value="...null@gmail.com" onfocusout="checkInput()">
+                <br>
+                <label>Please tell us your comments and concerns</label>
+                <textarea name="comment" placeholder="....Enter Text Here"></textarea>
+                <button onclick="checkInput()">Confirm & Enter</button>
+            </form>
+        </section>
+
+        <footer>
+            <div class="wiki-link"><a href="https://en.wikipedia.org/wiki/Washington_(state)" target="_blank">For more information check out the Washington State Wikipedia Page!</a></div>
+        </footer>
+    </body>
+</html>
