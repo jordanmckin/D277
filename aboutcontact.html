@@ -1,47 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" type="text/css" href="style_sheet.css" />
-        <script src="check_script.js"></script>
-        <title>Washington State</title>
-    </head>
-    <body>
-        <header>
-            <h1>Washington State</h1>
-            <h3 id="nickname">The Evergreen State</h3>
-            <img class="hpage_corner" src="images\detailed_state_map.jpg" alt="State Flag">
-            <img class="hpage_center" src="images\washington_state_wide.jpg" alt="State Flag">
-            <img class="hpage_corner" src="images\state_flag.png" alt="State Flag">
-            <nav>
-                <ul>
-                    <a href="index.html">Home-Washington State</a> |
-                    <a href="olympia.html">Olympia-Capitol</a> |
-                    <a href="tacoma.html">Tacoma</a> |
-                    <a href="seattle.html">Seattle</a> |
-                    <a href="aboutcontact.html">About & Contact</a>
-                </ul>
-            </nav>
-        </header>
-        <section>
-            <h2>Connect with us!</h2>
-            <form>
-                <label for="first">First Name</label>
-                <input type="text" id="first" name="first" value="John">
-                <label for="last">Last Name</label>
-                <input type="text" id="last" name="last" value="Doe">  
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email" value="John@gmail.com">
-                <label for="cemail">Confirm Email</label>
-                <input type="text" id="cemail" name="cemail" value="JohnDoe@gmail.com" onfocusout="checkInput()">
-                <br>
-                <label>Please tell us your comments and concerns</label>
-                <textarea name="comment" placeholder="....Enter Text Here"></textarea>
-                <button onclick="checkInput()">Confirm & Enter</button>
-            </form>
-        </section>
 
-        <footer>
-            <div class="wiki-link"><a href="https://en.wikipedia.org/wiki/Washington_(state)" target="_blank">For more information check out the Washington State Wikipedia Page!</a></div>
-        </footer>
-    </body>
+<head>
+    <link rel="stylesheet" type="text/css" href="style_sheet.css" />
+    <script src="check_script.js"></script>
+    <title>Washington State</title>
+</head>
+
+<body>
+    <header>
+        <h1>Washington State</h1>
+        <h3 id="nickname">The Evergreen State</h3>
+        <img class="hpage_corner" src="images\detailed_state_map.jpg" alt="State Flag">
+        <img class="hpage_center" src="images\washington_state_wide.jpg" alt="State Flag">
+        <img class="hpage_corner" src="images\state_flag.png" alt="State Flag">
+        <nav>
+            <ul>
+                <a href="index.html">Home-Washington State</a> |
+                <a href="olympia.html">Olympia-Capitol</a> |
+                <a href="tacoma.html">Tacoma</a> |
+                <a href="seattle.html">Seattle</a> |
+                <a href="aboutcontact.html">About & Contact</a>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Connect with us!</h2>
+        <form>
+            <label for="first">First Name</label>
+            <input type="text" id="first" name="first" value="John">
+            <label for="last">Last Name</label>
+            <input type="text" id="last" name="last" value="Doe">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" value="John@gmail.com">
+            <label for="cemail">Confirm Email</label>
+            <input type="text" id="cemail" name="cemail" value="JohnDoe@gmail.com" onfocusout="checkInput()">
+            <br>
+            <label>Please tell us your comments and concerns</label>
+            <textarea name="comment" placeholder="....Enter Text Here"></textarea>
+            <button onclick="checkInput()">Confirm & Enter</button>
+        </form>
+    </section>
+    <aside>
+        <h2>About Washington</h2>
+        <p>Washington, officially the State of Washington, is a state in the Pacific Northwest region of the United
+            States. It is often referred to as Washington state to distinguish it from the national capital, both named
+            for George Washington (the first U.S. president). Washington borders the Pacific Ocean to the west, Oregon
+            to the south, Idaho to the east, and the Canadian province of British Columbia to the north. The state was
+            formed from the western part of the Washington Territory, which was ceded by the British Empire in the
+            Oregon Treaty of 1846. It was admitted to the Union as the 42nd state in 1889. Olympia is the state capital,
+            and the most populous city is Seattle.</p>
+        <img src="images\Trading.jpg" alt="Trading">
+    </aside>
+    <footer>
+        <div class="wiki-link"><a href="https://en.wikipedia.org/wiki/Washington_(state)" target="_blank">For more
+                information check out the Washington State Wikipedia Page!</a></div>
+    </footer>
+</body>
+
 </html>

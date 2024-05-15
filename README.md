@@ -2,15 +2,15 @@ State website for D277, rubric is as follows:
 
 Create 4–10 web pages of content for your website with a main page that introduces the state of your choice and additional pages for the capital and two other cities located within the state. The information for the capital and each city can vary but must include the following:
 
-•   the city’s population
+x   the city’s population
 
-•   the year the city was incorporated
+x   the year the city was incorporated
 
-•   the region of the state in which the city is located
+x   the region of the state in which the city is located
 
-•   the classification of the city: urban, suburban, and/or rural
+x   the classification of the city: urban, suburban, and/or rural
 
-•   the average income level of the city compared to the rest of the state
+x   the average income level of the city compared to the rest of the state
 
 1.  Include the following items on each page, using a suitable HTML element:
 
@@ -33,18 +33,18 @@ x   an aside to display information related to the content
 
 B.  Include each of the following elements within your website, using suitable markup:
 
-1.  a link that opens an external website in a new window or tab using the target attribute
+x  a link that opens an external website in a new window or tab using the target attribute
 
-2.  an HTML-coded ordered list with at least three list items
+x.  an HTML-coded ordered list with at least three list items
 
 x.  an HTML-coded unordered list with at least three list items
 
-4.  an HTML-coded table consisting of 3–6 columns and 3–6 rows to organize content
+x.  an HTML-coded table consisting of 3–6 columns and 3–6 rows to organize content
 
 
 C.  Create an external CSS file with the following CSS rules and formatting, and apply these rules to enhance your website content:
 
-1.  each of the following styles for text:
+x.  each of the following styles for text:
 
 x  one font-family declaration
 
@@ -54,7 +54,7 @@ x.  a float property to position at least one HTML element to the side of anothe
 
 x  absolute and relative positioning in at least one area of your web page
 
-4.  each of the following selectors:
+x.  each of the following selectors:
 
 x   one element selector to style the HTML elements
 
@@ -69,11 +69,11 @@ D.  Add a form on one page of your website by doing the following:
 Note: The form does not need to include a functional Submit button.
 
 
-•   Include text fields for the user’s first name, the user’s last name, and the user’s email address, as well as a confirmation field for the email address for verification purposes and a text box that allows the user to ask a question.
+x   Include text fields for the user’s first name, the user’s last name, and the user’s email address, as well as a confirmation field for the email address for verification purposes and a text box that allows the user to ask a question.
 
-•   Ensure all fields contain placeholders.
+x   Ensure all fields contain placeholders.
 
-1.  Include JavaScript code that verifies the email fields match when a user enters a second email address.
+x  Include JavaScript code that verifies the email fields match when a user enters a second email address.
 
 
 
